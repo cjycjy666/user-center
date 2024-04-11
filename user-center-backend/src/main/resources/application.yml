@@ -4,9 +4,9 @@ spring:
 # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://58.87.96.86:3306/cccuniverse
+    url:
     username: root
-    password: Ccjy88007886
+    password: 
 # session 失效时间
   session:
     timeout: 86400
@@ -22,4 +22,6 @@ mybatis-plus:
 # Port
 server:
   port: 8080
+  servlet:
+    context-path: /api
 
